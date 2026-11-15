@@ -13,7 +13,7 @@ def evaluate_matched_models(ae, vae, x_train, x_test, feature_net, test_features
     ae.eval()
     vae.eval()
 
-    # Use identical prior draws for both decoders.
+    # Use identical prior draws for both decoders
     test_means, _ = vae.encode(x_test)
     generator = torch.Generator().manual_seed(seed)
     prior_codes = torch.randn(test_means.shape, generator = generator)
