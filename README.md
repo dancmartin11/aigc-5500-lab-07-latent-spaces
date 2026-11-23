@@ -85,8 +85,8 @@ Open `daniel_alejandro_castillo_martin_LAB7.ipynb` in VS Code or Jupyter, select
 | Operating system | Windows |
 | Python | 3.14.6 |
 | Training device | CPU |
-| CPU model | `[Fill in CPU model]` |
-| Full notebook runtime | `[Fill in measured runtime]` |
+| CPU model | Intel Core Ultra 7 155U |
+| Full notebook runtime | 5 min 32 sec |
 
 | Experimental setting | Value |
 |---|---|
